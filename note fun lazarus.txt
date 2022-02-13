@@ -1,0 +1,13 @@
+{$apptype console} // to read debug output on windows  , write ln ..
+ try
+    WriteLn('Program ConsoleTest is running.');
+    WriteLn('Press the ENTER key to stop');
+    ReadLn;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+
+
+
+dragimagelist dans example , cool drag button
