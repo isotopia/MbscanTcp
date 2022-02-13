@@ -1,11 +1,11 @@
 object FormMBScanTcp: TFormMBScanTcp
-  Left = 607
+  Left = 586
   Height = 593
-  Top = 120
-  Width = 1299
+  Top = 118
+  Width = 1311
   Caption = 'FormMBScanTcp'
   ClientHeight = 573
-  ClientWidth = 1299
+  ClientWidth = 1311
   Menu = MainMenu1
   OnCreate = FormCreate
   OnDestroy = FormDestroy
@@ -14,7 +14,7 @@ object FormMBScanTcp: TFormMBScanTcp
     Left = 0
     Height = 95
     Top = 478
-    Width = 1299
+    Width = 1311
     Align = alBottom
     Lines.Strings = (
       'Debug Information'
@@ -28,7 +28,7 @@ object FormMBScanTcp: TFormMBScanTcp
     Left = 0
     Height = 84
     Top = 0
-    Width = 1299
+    Width = 1311
     Align = alTop
   end
   object EditIP: TEdit
@@ -205,7 +205,7 @@ object FormMBScanTcp: TFormMBScanTcp
     Left = 0
     Height = 5
     Top = 473
-    Width = 1299
+    Width = 1311
     Align = alBottom
     ResizeAnchor = akBottom
   end
@@ -213,7 +213,7 @@ object FormMBScanTcp: TFormMBScanTcp
     Left = 0
     Height = 389
     Top = 84
-    Width = 1299
+    Width = 1311
     Align = alClient
     AutoAdvance = aaDown
     ColCount = 7
@@ -360,12 +360,12 @@ object FormMBScanTcp: TFormMBScanTcp
     Title = 'Open File'
     DefaultExt = '.mbs'
     Filter = 'MbscanTcp|*.mbs|All|*.*'
-    Left = 1200
+    Left = 1192
     Top = 120
   end
   object MainMenu1: TMainMenu
-    Left = 1196
-    Top = 64
+    Left = 1192
+    Top = 72
     object MenuItemFile: TMenuItem
       Caption = 'File'
       object MenuItemLoadMBS: TMenuItem

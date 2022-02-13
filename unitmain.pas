@@ -186,10 +186,6 @@ begin
      ini.WriteString('Description'  ,inttostr(j) ,FormMBScanTcp.StringGrid.Cells[8, j ] );
      end;
 
-
-
-  // stringgrid.ColWidths[0]:= 60;
-
   finally
     // After the ini file was used it must be freed to prevent memory leaks.
     INI.Free;
@@ -227,10 +223,10 @@ begin
      FormMBScanTcp.StringGrid.Cells[6, j ] := ini.ReadString('Multiplier *x'  ,inttostr(j) , '1');
      end;
 
-   for j := 1 to FormMBScanTcp.stringgrid.RowCount -1  do
+{   for j := 1 to FormMBScanTcp.stringgrid.RowCount -1  do
      begin
      FormMBScanTcp.StringGrid.Cells[7, j ] := ini.ReadString('Logging Data'  ,inttostr(j) , '' );
-     end;
+     end;       }
 
    for j := 1 to FormMBScanTcp.stringgrid.RowCount -1  do
      begin
@@ -254,19 +250,15 @@ var
    sr :  uint32 ;
    MaskLW :LongWord;
    CsvDataList  : string;
+
 begin
    q := AQuery as TMBQCustomRWRegisters;
    sr := strtointdef(EditStartReg.Caption , 1);
 
-  // FormMBScanTcp.Caption := 'fStatusText';
-    FormMBScanTcp.memoDebug.Lines.Add(  ' event get query done called ') ;
- //  delay(100);
- //  application.ProcessMessages;
    q.WaitForCompletion;         //-----------------------------    cool , ca marche
-   //q.Error:=;
-  // delay(600);
+
 //   q.WaitForCompletion;
-// exit;
+
     FormMBScanTcp.memoDebug.Lines.Add(  ' ---'  );
    if q.Error <> mbeNoError then
        memoDebug.Lines.Add ( 'read error  : ' +  mbu_ErrorToStr(q.Error) + '     LoopCount ' + inttostr(Loopcount)  )
@@ -275,7 +267,7 @@ begin
       lastwritecol :=0;
       lastwriterow := 0;
    end;
- // end;
+
 
  // memoDebug.Lines.Add(  ' q.rp.ByteCount '+ inttostr( q.rp.ByteCount) );
 
@@ -334,7 +326,7 @@ begin
       // If there was an error the reason can be found here
       on E: EInOutError do
        begin
-       memoDebug.Lines.Add  ('File handling error occurred. Details: ' + E.ClassName +E.Message );
+       memoDebug.Lines.Add  ('write File handling error occurred. Details: ' + E.ClassName +E.Message );
        end;
     end;
 
@@ -534,9 +526,9 @@ begin
      begin
       timer1.Tag := 0;   // tag used for remember if connected requested
                          //zz memoDebug.Lines.Add(  ' on part pour les delay ');
-      Delay(100); {Wait one second}
-      application.ProcessMessages;
-            Delay(200); {Wait one second}
+    //  Delay(100); {Wait one second}
+    //  application.ProcessMessages;
+       //     Delay(200); {Wait one second}
                         //zz  memoDebug.Lines.Add(  ' fin des delay ');
        mbt.Disconnect;
                         //zz   memoDebug.Lines.Add(  ' apres get completed query ') ;
