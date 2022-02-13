@@ -8,4 +8,6 @@
       Writeln(E.ClassName, ': ', E.Message);
   end;
 
+
+
 dragimagelist dans example , cool drag button

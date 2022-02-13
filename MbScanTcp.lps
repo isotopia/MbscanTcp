@@ -20,8 +20,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UnitMain"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="299"/>
-        <CursorPos X="22" Y="315"/>
+        <TopLine Value="152"/>
+        <CursorPos X="11" Y="148"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -69,10 +69,11 @@
       </Unit6>
       <Unit7>
         <Filename Value="mbubase.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="166"/>
-        <CursorPos X="20" Y="183"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="38" Y="33"/>
         <UsageCount Value="100"/>
+        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="mbustdq.pas"/>
@@ -366,7 +367,7 @@
         <UsageCount Value="10"/>
       </Unit50>
     </Units>
-    <JumpHistory Count="23" HistoryIndex="22">
+    <JumpHistory Count="25" HistoryIndex="24">
       <Position1>
         <Filename Value="unitmain.pas"/>
         <Caret Line="704" Column="59" TopLine="688"/>
@@ -459,6 +460,14 @@
         <Filename Value="unitmain.pas"/>
         <Caret Line="361" Column="11" TopLine="349"/>
       </Position23>
+      <Position24>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="236" Column="16" TopLine="233"/>
+      </Position24>
+      <Position25>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="574" Column="11" TopLine="565"/>
+      </Position25>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

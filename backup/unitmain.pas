@@ -312,7 +312,7 @@ begin
                                                                           // 'Logging Data' mx+b scale plus ofset ;
       StringGrid.Cells[7, j+1 ] := floattostr( (smallint( q.rp.RegU16BE[j]) + strtofloat(StringGrid.Cells[5, j +1 ])) * strtofloat(StringGrid.Cells[6, j +1 ]) );
 
-      CsvDataList := FormMBScanTcp.CsvDataList + '  , ' + StringGrid.Cells[7, j+1 ]  ;     // logging data to file  scaled
+      CsvDataList := CsvDataList + '  , ' + StringGrid.Cells[7, j+1 ]  ;     // logging data to file  scaled
 
    end;
    loopcount := loopcount +1;
