@@ -259,8 +259,9 @@ begin
    sr := strtointdef(EditStartReg.Caption , 1);
 
   // FormMBScanTcp.Caption := 'fStatusText';
-
-
+    FormMBScanTcp.memoDebug.Lines.Add(  ' event get query done called ') ;
+ //  delay(100);
+ //  application.ProcessMessages;
    q.WaitForCompletion;         //-----------------------------    cool , ca marche
    //q.Error:=;
   // delay(600);
