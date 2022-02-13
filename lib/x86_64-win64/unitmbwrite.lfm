@@ -1,0 +1,111 @@
+object FormMbWrite: TFormMbWrite
+  Left = 978
+  Height = 240
+  Top = 325
+  Width = 320
+  Caption = 'FormMbWrite'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnShow = FormShow
+  LCLVersion = '2.0.10.0'
+  object ButtonMbWrite: TButton
+    Left = 90
+    Height = 25
+    Top = 198
+    Width = 141
+    Caption = 'Write data'
+    OnClick = ButtonMbWriteClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object LabelIP: TLabel
+    Left = 122
+    Height = 15
+    Top = 13
+    Width = 38
+    Caption = 'LabelIP'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelIP1: TLabel
+    Left = 38
+    Height = 15
+    Top = 13
+    Width = 46
+    Caption = 'IP adress'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelSlave: TLabel
+    Left = 122
+    Height = 15
+    Top = 38
+    Width = 55
+    Caption = 'LabelSlave'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelIP3: TLabel
+    Left = 38
+    Height = 15
+    Top = 38
+    Width = 63
+    Caption = 'Slave adress'
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditData: TEdit
+    Left = 90
+    Height = 23
+    Top = 160
+    Width = 138
+    ParentFont = False
+    TabOrder = 1
+    Text = '42'
+  end
+  object Label1: TLabel
+    Left = 83
+    Height = 15
+    Top = 134
+    Width = 155
+    Caption = 'number betewen 0 and 65535'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelRegister: TLabel
+    Left = 122
+    Height = 15
+    Top = 64
+    Width = 70
+    Caption = 'LabelRegister'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelIP4: TLabel
+    Left = 38
+    Height = 15
+    Top = 64
+    Width = 45
+    Caption = 'Register:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelRow: TLabel
+    Left = 122
+    Height = 15
+    Top = 90
+    Width = 51
+    Caption = 'LabelRow'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelRow2: TLabel
+    Left = 39
+    Height = 15
+    Top = 90
+    Width = 48
+    Caption = 'On Row :'
+    ParentColor = False
+    ParentFont = False
+  end
+end

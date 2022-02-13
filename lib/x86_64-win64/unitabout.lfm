@@ -1,0 +1,89 @@
+object Formabout: TFormabout
+  Left = 430
+  Height = 235
+  Top = 283
+  Width = 241
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 235
+  ClientWidth = 241
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 64
+    Height = 28
+    Top = 200
+    Width = 96
+    Caption = 'Close Form'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 42
+    Top = 13
+    Width = 127
+    Caption = ' MbTCPScan '#13#10'BY: carl Fauteux'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 85
+    Caption = 'carl@devcar.net'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 128
+    Height = 15
+    Top = 64
+    Width = 56
+    Caption = 'Version 0.1'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelCompileTime: TLabel
+    Left = 15
+    Height = 15
+    Top = 104
+    Width = 99
+    Caption = 'LabelCompileTime'
+    ParentColor = False
+  end
+  object labelCompileDate: TLabel
+    Left = 15
+    Height = 15
+    Top = 128
+    Width = 94
+    Caption = 'labelCompileDate'
+    ParentColor = False
+  end
+  object labelCompileVer: TLabel
+    Left = 15
+    Height = 15
+    Top = 152
+    Width = 86
+    Caption = 'labelCompileVer'
+    ParentColor = False
+  end
+  object labelCompileOs: TLabel
+    Left = 15
+    Height = 15
+    Top = 176
+    Width = 84
+    Caption = 'labelCompileOs'
+    ParentColor = False
+  end
+end

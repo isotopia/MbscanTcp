@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus64\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1357350767"/>
+  <Params Value=" -MObjFPC -Scghi -O3 -g -gl -WG -l -vewnhibq -FiC:\Users\carl\Desktop\MbScanTcp\lib\x86_64-win64 -FuC:\Users\carl\Desktop\MbScanTcp\synapse -FuC:\lazarus64\lcl\units\x86_64-win64\win32 -FuC:\lazarus64\lcl\units\x86_64-win64 -FuC:\lazarus64\components\lazutils\lib\x86_64-win64 -FuC:\lazarus64\packager\units\x86_64-win64 -FuC:\Users\carl\Desktop\MbScanTcp\ -FUC:\Users\carl\Desktop\MbScanTcp\lib\x86_64-win64\ -FEC:\Users\carl\Desktop\MbScanTcp\ -oC:\Users\carl\Desktop\MbScanTcp\MbScanTcp.exe -dLCL -dLCLwin32 MbScanTcp.lpr"/>
+</CONFIG>
