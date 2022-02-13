@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="51">
+    <Units Count="52">
       <Unit0>
         <Filename Value="MbScanTcp.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -19,9 +19,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UnitMain"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="509"/>
-        <CursorPos X="8" Y="526"/>
+        <TopLine Value="719"/>
+        <CursorPos X="3" Y="747"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -64,13 +63,13 @@
       </Unit5>
       <Unit6>
         <Filename Value="mbutcp.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="100"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="mbubase.pas"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="7"/>
         <CursorPos X="155" Y="36"/>
         <UsageCount Value="100"/>
@@ -99,8 +98,8 @@
       </Unit10>
       <Unit11>
         <Filename Value="synapse\blcksock.pas"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="62"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="64"/>
         <Loaded Value="True"/>
       </Unit11>
       <Unit12>
@@ -368,127 +367,131 @@
         <CursorPos X="100" Y="57"/>
         <UsageCount Value="10"/>
       </Unit50>
+      <Unit51>
+        <Filename Value="..\MbScanTcp-bkp\5dpo\SdpoJoystick\sdpojoysticklaz.pas"/>
+        <UnitName Value="SdpoJoystickLaz"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit51>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="148" Column="24" TopLine="131"/>
+        <Filename Value="mbutcp.pas"/>
       </Position1>
       <Position2>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="148" Column="24" TopLine="131"/>
+        <Caret Line="575" Column="3" TopLine="573"/>
       </Position2>
       <Position3>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="281" Column="29" TopLine="259"/>
+        <Caret Line="333" Column="37" TopLine="309"/>
       </Position3>
       <Position4>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="314" Column="63" TopLine="286"/>
+        <Caret Line="131" Column="31" TopLine="114"/>
       </Position4>
       <Position5>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="330" Column="33" TopLine="302"/>
+        <Caret Line="431" Column="42" TopLine="403"/>
       </Position5>
       <Position6>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="326" Column="9" TopLine="310"/>
+        <Caret Line="436" Column="41" TopLine="408"/>
       </Position6>
       <Position7>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="327" Column="30" TopLine="316"/>
+        <Caret Line="131" Column="14" TopLine="114"/>
       </Position7>
       <Position8>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="361" Column="11" TopLine="349"/>
+        <Caret Line="141" Column="150" TopLine="126"/>
       </Position8>
       <Position9>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="236" Column="16" TopLine="233"/>
+        <Caret Line="567" Column="3" TopLine="553"/>
       </Position9>
       <Position10>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="574" Column="11" TopLine="565"/>
+        <Caret Line="38" Column="18" TopLine="21"/>
       </Position10>
       <Position11>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="154" Column="18" TopLine="134"/>
+        <Caret Line="83" Column="28" TopLine="55"/>
       </Position11>
       <Position12>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="203" Column="3" TopLine="197"/>
+        <Caret Line="344" Column="47" TopLine="337"/>
       </Position12>
       <Position13>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="156" Column="23" TopLine="135"/>
+        <Caret Line="741" Column="5" TopLine="680"/>
       </Position13>
       <Position14>
-        <Filename Value="mbubase.pas"/>
-        <Caret Line="33" Column="32" TopLine="16"/>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="258" Column="6" TopLine="241"/>
       </Position14>
       <Position15>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="241" Column="23"/>
+        <Caret Line="260" Column="8" TopLine="241"/>
       </Position15>
       <Position16>
-        <Filename Value="mbubase.pas"/>
-        <Caret Line="151" Column="20" TopLine="16"/>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="451" Column="5" TopLine="434"/>
       </Position16>
       <Position17>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="241" Column="23"/>
+        <Caret Line="473" Column="5" TopLine="456"/>
       </Position17>
       <Position18>
-        <Filename Value="mbutcp.pas"/>
+        <Filename Value="unitmain.pas"/>
+        <Caret Line="508" Column="6" TopLine="491"/>
       </Position18>
       <Position19>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="146" Column="35" TopLine="296"/>
+        <Caret Line="705" Column="16" TopLine="689"/>
       </Position19>
       <Position20>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="575" Column="3" TopLine="573"/>
+        <Caret Line="543" Column="148" TopLine="543"/>
       </Position20>
       <Position21>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="333" Column="37" TopLine="309"/>
+        <Caret Line="464" Column="11" TopLine="412"/>
       </Position21>
       <Position22>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="131" Column="31" TopLine="114"/>
+        <Caret Line="16" Column="32" TopLine="3"/>
       </Position22>
       <Position23>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="431" Column="42" TopLine="403"/>
+        <Caret Line="21" Column="85" TopLine="10"/>
       </Position23>
       <Position24>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="436" Column="41" TopLine="408"/>
+        <Caret Line="567" Column="9" TopLine="565"/>
       </Position24>
       <Position25>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="131" Column="14" TopLine="114"/>
+        <Caret Line="148" Column="11" TopLine="137"/>
       </Position25>
       <Position26>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="141" Column="150" TopLine="126"/>
+        <Caret Line="253" Column="34" TopLine="242"/>
       </Position26>
       <Position27>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="567" Column="3" TopLine="553"/>
+        <Caret Line="258" Column="62" TopLine="242"/>
       </Position27>
       <Position28>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="38" Column="18" TopLine="21"/>
+        <Caret Line="262" Column="4" TopLine="262"/>
       </Position28>
       <Position29>
         <Filename Value="unitmain.pas"/>
-        <Caret Line="83" Column="28" TopLine="55"/>
+        <Caret Line="241" Column="56" TopLine="208"/>
       </Position29>
-      <Position30>
-        <Filename Value="unitmain.pas"/>
-        <Caret Line="344" Column="47" TopLine="337"/>
-      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

@@ -13,7 +13,7 @@ uses
 
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Grids,
   ExtCtrls, Menus, ComCtrls, ActnList, mbubase, mbutcp, mbustdq,
-  SNTPsend ,Crt, Types,blogger;    // mbuserial, ?? compile pas
+  SNTPsend ,Crt;// Types;//,blogger;    // mbuserial ;//not implemented on this app
 
 
 
@@ -259,7 +259,7 @@ begin
 
 //   q.WaitForCompletion;
 
-    FormMBScanTcp.memoDebug.Lines.Add(  ' ---'  );
+ //   FormMBScanTcp.memoDebug.Lines.Add(  ' ---'  );
    if q.Error <> mbeNoError then
        memoDebug.Lines.Add ( 'read error  : ' +  mbu_ErrorToStr(q.Error) + '     LoopCount ' + inttostr(Loopcount)  )
    else
@@ -405,7 +405,7 @@ end;
 procedure TFormMBScanTcp.Button1Click(Sender: TObject);
 begin
   memoDebug.Lines.Add('button 1 clic ');
- // TQueryApp.cmdl.Add('1254'); // FCommands;
+
 end;
 
 
@@ -729,7 +729,7 @@ var
   q: TMBQCustomRWRegisters ; //TMBQuery;
 begin
 
-  mbt.ReplyTimeout:=1000;      // test
+  mbt.ReplyTimeout:=100;      // test
 
   q := TMBQReadHoldingRegisters.Create(1);
 
