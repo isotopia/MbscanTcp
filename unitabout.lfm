@@ -25,7 +25,7 @@ object Formabout: TFormabout
     Height = 42
     Top = 13
     Width = 127
-    Caption = ' MbTCPScan '#13#10'BY: carl Fauteux'
+    Caption = ' MbScanTCP '#13#10'BY: carl Fauteux'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -16
@@ -35,6 +35,7 @@ object Formabout: TFormabout
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
+    OnClick = Label1Click
   end
   object Label2: TLabel
     Left = 24

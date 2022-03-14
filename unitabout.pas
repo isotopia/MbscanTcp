@@ -22,6 +22,7 @@ type
     labelCompileOs: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
   private
 
   public
@@ -48,6 +49,11 @@ begin
   labelCompileDate.Caption:= ( 'On ' + {$I %DATE%} );
   labelCompileVer.Caption:= ( 'FPC ' + {$I %FPCVERSION%} );
   labelCompileOs.Caption:= ( 'FPC ' + {$I %FPCTARGET%} );
+end;
+
+procedure TFormabout.Label1Click(Sender: TObject);
+begin
+
 end;
 
 end.

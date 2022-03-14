@@ -1,7 +1,7 @@
 object FormMBScanTcp: TFormMBScanTcp
-  Left = 586
+  Left = 542
   Height = 593
-  Top = 118
+  Top = 119
   Width = 1311
   Caption = 'FormMBScanTcp'
   ClientHeight = 573
